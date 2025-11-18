@@ -1,4 +1,4 @@
-# front_end
+# Healthcare Wellness and Preventive Care Portal frontend
 Healthcare Wellness &amp; Preventive Care Portal frontend
 
 Project Overview:
