@@ -93,3 +93,55 @@ Placeholder data for demonstration
 
 Profile Page:
 Edit name, allergies, and other health information
+
+
+API Endpoints:
+1. Authentication APIs:
+   POST /api/auth/register     - Register user
+   POST /api/auth/login        - Login user and receive JWT
+
+2. Patient APIs:
+GET  /api/patient/dashboard - Fetch patient dashboard data
+POST /api/patient/goal      - Create a new wellness goal
+PUT  /api/patient/goal/:id  - Update goal progress
+GET  /api/patient/profile   - Retrieve patient profile
+PUT  /api/patient/profile   - Update patient profile
+
+3. Provider APIs:
+   GET /api/provider/patients          - Retrieve all assigned patients
+   GET /api/provider/patient/:id       - Get details of a specific patient
+
+
+Work Allocation Among Team Members:
+
+Ritu Raj – Frontend Lead
+Responsibilities:
+Landing page UI
+Public health information page
+Navigation bar and footer
+TailwindCSS styling
+Ensuring responsiveness across pages
+
+Gaurav – Backend Lead
+Responsibilities:
+Setting up Node.js and Express backend
+Designing MongoDB models (User, Goals)
+Implementing authentication with JWT and bcrypt
+Creating provider-related API endpoints
+Error handling and validation
+
+Abdus Samad – Patient Module Developer
+Responsibilities:
+Patient dashboard UI and functionality
+Goal tracking and progress updates
+Patient profile page
+Integration of patient-specific APIs
+Implementation of preventive reminders
+
+Prateek – Provider Module and Deployment Lead
+Responsibilities:
+Provider dashboard UI
+Patient detail page
+Routing and application structure
+Deployment of frontend and backend
+Setting up GitHub Actions CI/CD
